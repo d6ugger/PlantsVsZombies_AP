@@ -5,19 +5,19 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
       <ImageView fitHeight="400.0" fitWidth="600.0" layoutX="-1.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@lawn.png" />
          </image>
       </ImageView>
-      <Button layoutX="212.0" layoutY="103.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="159.0" text="Save Game">
+      <Button layoutX="212.0" layoutY="101.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="182.0" style="-fx-background-color: #6c936c; -fx-border-color: #003b00; -fx-background-radius: 10; -fx-border-radius: 10;" text="Save Game" textFill="#042c05">
          <font>
             <Font size="19.0" />
          </font>
       </Button>
-      <Button layoutX="212.0" layoutY="210.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="159.0" text="Exit Game">
+      <Button fx:id="b_exit" onMouseClicked="#exit" layoutX="212.0" layoutY="210.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="182.0" style="-fx-background-color: #6c936c; -fx-background-radius: 10; -fx-border-color: #003b00; -fx-border-radius: 10;" text="Exit Game" textFill="#7f312c">
          <font>
             <Font size="19.0" />
          </font>

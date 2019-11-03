@@ -5,36 +5,11 @@
 <?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
     <children>
         <ImageView accessibleRole="BUTTON" fitHeight="400.0" fitWidth="600.0" layoutX="-3.0" layoutY="-1.0" pickOnBounds="true">
             <image>
                 <Image url="@yard_full5rows_cropped.png" />
-            </image>
-        </ImageView>
-        <ImageView fitHeight="40.0" fitWidth="58.0" layoutX="99.0" layoutY="324.0" pickOnBounds="true" preserveRatio="true">
-            <image>
-                <Image url="@Lawnmower%20(1).png" />
-            </image>
-        </ImageView>
-        <ImageView fitHeight="40.0" fitWidth="58.0" layoutX="98.0" layoutY="263.0" pickOnBounds="true" preserveRatio="true">
-            <image>
-                <Image url="@Lawnmower%20(1).png" />
-            </image>
-        </ImageView>
-        <ImageView fitHeight="40.0" fitWidth="58.0" layoutX="107.0" layoutY="196.0" pickOnBounds="true" preserveRatio="true">
-            <image>
-                <Image url="@Lawnmower%20(1).png" />
-            </image>
-        </ImageView>
-        <ImageView fitHeight="40.0" fitWidth="58.0" layoutX="107.0" layoutY="137.0" pickOnBounds="true" preserveRatio="true">
-            <image>
-                <Image url="@Lawnmower%20(1).png" />
-            </image>
-        </ImageView>
-        <ImageView fitHeight="40.0" fitWidth="58.0" layoutX="107.0" layoutY="74.0" pickOnBounds="true" preserveRatio="true">
-            <image>
-                <Image url="@Lawnmower%20(1).png" />
             </image>
         </ImageView>
         <Button contentDisplay="GRAPHIC_ONLY" layoutX="11.0" layoutY="6.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="60.0" text="Button" textAlignment="CENTER">
@@ -49,7 +24,7 @@
         </ImageView>
             </graphic>graphic>
         </Button>
-        <Button contentDisplay="GRAPHIC_ONLY" layoutX="12.0" layoutY="70.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="60.0" text="Button" textAlignment="CENTER">
+        <Button fx:id="pea_pl" contentDisplay="GRAPHIC_ONLY" layoutX="12.0" layoutY="70.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="60.0" text="Button" textAlignment="CENTER">
             <cursor>
                 <Cursor fx:constant="DEFAULT" />
             </cursor>
@@ -89,42 +64,87 @@
       </ImageView>
       <TextField layoutX="131.0" layoutY="13.0" prefHeight="25.0" prefWidth="60.0" text="Scoreboard" />
       <ProgressBar layoutX="324.0" layoutY="18.0" nodeOrientation="RIGHT_TO_LEFT" opacity="0.74" prefWidth="200.0" progress="0.46" />
-      <Button layoutX="534.0" layoutY="14.0" mnemonicParsing="false" text="Menu" />
+      <Button fx:id="menubutton" onMouseClicked="#pause" layoutX="534.0" layoutY="14.0" mnemonicParsing="false" text="Menu" />
 
 
-        <Button contentDisplay="GRAPHIC_ONLY" layoutX="146.0" layoutY="70.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="60.0" style="-fx-background-color: transparent;" text="Button" textAlignment="CENTER">
+        <Button contentDisplay="GRAPHIC_ONLY" layoutX="146.0" layoutY="70.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="60.0" style="-fx-background-color: transparent;" text="back" textAlignment="CENTER">
          <cursor>
             <Cursor fx:constant="DEFAULT" />
          </cursor>
       </Button>
       <Button layoutX="-76.0" layoutY="35.0" mnemonicParsing="false" text="Button" />
-      <Button contentDisplay="GRAPHIC_ONLY" layoutX="159.0" layoutY="133.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="60.0" style="-fx-background-color: transparent;" text="Button" textAlignment="CENTER">
+      <Button fx:id="mower_row2" contentDisplay="GRAPHIC_ONLY" layoutX="87.0" layoutY="264.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="60.0" style="-fx-background-color: transparent;" text="Button" textAlignment="CENTER">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <graphic>
+            <ImageView fitHeight="40.0" fitWidth="60.0" layoutX="98.0" layoutY="263.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Lawnmower (1).png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="mower_row3" contentDisplay="GRAPHIC_ONLY" layoutX="95.0" layoutY="189.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="60.0" style="-fx-background-color: transparent;" text="Button" textAlignment="CENTER">
          <cursor>
             <Cursor fx:constant="DEFAULT" />
          </cursor>
          <graphic>
             <ImageView fitHeight="40.0" fitWidth="60.0" layoutX="14.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@Lawnmower%20(1).png" />
+                  <Image url="@Lawnmower (1).png" />
                </image>
             </ImageView>
          </graphic>
       </Button>
-      <Button contentDisplay="GRAPHIC_ONLY" layoutX="166.0" layoutY="90.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="60.0" style="-fx-background-color: transparent;" text="Button" textAlignment="CENTER">
+      <Button fx:id="mower_row31" contentDisplay="GRAPHIC_ONLY" layoutX="99.0" layoutY="129.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="60.0" style="-fx-background-color: transparent;" text="Button" textAlignment="CENTER">
          <cursor>
             <Cursor fx:constant="DEFAULT" />
          </cursor>
+         <graphic>
+            <ImageView fitHeight="40.0" fitWidth="60.0" layoutX="14.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Lawnmower (1).png" />
+               </image>
+            </ImageView>
+         </graphic>
       </Button>
-      <ImageView fitHeight="40.0" fitWidth="60.0" layoutX="172.0" layoutY="243.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@Lawnmower%20(1).png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="40.0" fitWidth="60.0" layoutX="167.0" layoutY="74.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@Lawnmower%20(1).png" />
-         </image>
-      </ImageView>
+      <Button fx:id="mower_row311" contentDisplay="GRAPHIC_ONLY" layoutX="99.0" layoutY="66.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="60.0" style="-fx-background-color: transparent;" text="Button" textAlignment="CENTER">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <graphic>
+            <ImageView fitHeight="40.0" fitWidth="60.0" layoutX="14.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Lawnmower (1).png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="mower_row32" contentDisplay="GRAPHIC_ONLY" layoutX="87.0" layoutY="322.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="60.0" style="-fx-background-color: transparent;" text="Button" textAlignment="CENTER">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <graphic>
+            <ImageView fitHeight="40.0" fitWidth="60.0" layoutX="14.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Lawnmower (1).png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="zomb" contentDisplay="GRAPHIC_ONLY" layoutX="581.0" layoutY="94.0" mnemonicParsing="false" prefHeight="87.0" prefWidth="64.0" style="-fx-background-color: transparent;" text="Button" textAlignment="CENTER">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <graphic>
+            <ImageView fitHeight="79.0" fitWidth="50.0" layoutX="14.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@zombie_normal_gif.gif" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
 
 
     </children>
