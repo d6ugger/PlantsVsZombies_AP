@@ -22,7 +22,7 @@
                 <Image url="@Lawnmower%20(1).png" />
             </image>
         </ImageView>
-        <ImageView fitHeight="40.0" fitWidth="58.0" layoutX="107.0" layoutY="196.0" pickOnBounds="true" preserveRatio="true">
+        <ImageView fitHeight="40.0" fitWidth="58.0" layoutX="103.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
             <image>
                 <Image url="@Lawnmower%20(1).png" />
             </image>
@@ -42,11 +42,11 @@
                 <Cursor fx:constant="DEFAULT" />
             </cursor>
             <graphic>
-        <ImageView fitHeight="40.0" fitWidth="60.0" layoutX="14.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
-            <image>
-                <Image url="@sunflower.png" />
-            </image>
-        </ImageView>
+                <ImageView fitHeight="40.0" fitWidth="60.0" layoutX="14.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@sunflower.png" />
+                    </image>
+                </ImageView>
             </graphic>graphic>
         </Button>
         <Button contentDisplay="GRAPHIC_ONLY" layoutX="12.0" layoutY="70.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="60.0" text="Button" textAlignment="CENTER">
@@ -62,8 +62,8 @@
             </graphic>graphic>
 
         </Button>
-      <ProgressBar layoutX="12.0" layoutY="108.0" prefHeight="12.0" prefWidth="60.0" progress="0.0" />
-      <ProgressBar layoutX="11.0" layoutY="48.0" prefHeight="12.0" prefWidth="60.0" progress="0.0" />
+        <ProgressBar layoutX="12.0" layoutY="108.0" prefHeight="12.0" prefWidth="60.0" progress="0.0" />
+        <ProgressBar layoutX="11.0" layoutY="48.0" prefHeight="12.0" prefWidth="60.0" progress="0.0" />
 
 
         <Button contentDisplay="GRAPHIC_ONLY" layoutX="11.0" layoutY="129.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="60.0" text="Button" textAlignment="CENTER">
@@ -79,52 +79,16 @@
             </graphic>graphic>
 
         </Button>
-      <ProgressBar layoutX="12.0" layoutY="171.0" prefHeight="12.0" prefWidth="60.0" progress="0.0" />
-      <Label layoutX="155.0" layoutY="30.0" />
-      <Button layoutX="84.0" layoutY="6.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="118.0" />
-      <ImageView fitHeight="40.0" fitWidth="87.0" layoutX="87.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@sun_token.png" />
-         </image>
-      </ImageView>
-      <TextField layoutX="131.0" layoutY="13.0" prefHeight="25.0" prefWidth="60.0" text="Scoreboard" />
-      <ProgressBar layoutX="324.0" layoutY="18.0" nodeOrientation="RIGHT_TO_LEFT" opacity="0.74" prefWidth="200.0" progress="0.46" />
-      <Button layoutX="534.0" layoutY="14.0" mnemonicParsing="false" text="Menu" />
-
-
-        <Button contentDisplay="GRAPHIC_ONLY" layoutX="146.0" layoutY="70.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="60.0" style="-fx-background-color: transparent;" text="Button" textAlignment="CENTER">
-         <cursor>
-            <Cursor fx:constant="DEFAULT" />
-         </cursor>
-      </Button>
-      <Button layoutX="-76.0" layoutY="35.0" mnemonicParsing="false" text="Button" />
-      <Button contentDisplay="GRAPHIC_ONLY" layoutX="159.0" layoutY="133.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="60.0" style="-fx-background-color: transparent;" text="Button" textAlignment="CENTER">
-         <cursor>
-            <Cursor fx:constant="DEFAULT" />
-         </cursor>
-         <graphic>
-            <ImageView fitHeight="40.0" fitWidth="60.0" layoutX="14.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@Lawnmower%20(1).png" />
-               </image>
-            </ImageView>
-         </graphic>
-      </Button>
-      <Button contentDisplay="GRAPHIC_ONLY" layoutX="166.0" layoutY="90.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="60.0" style="-fx-background-color: transparent;" text="Button" textAlignment="CENTER">
-         <cursor>
-            <Cursor fx:constant="DEFAULT" />
-         </cursor>
-      </Button>
-      <ImageView fitHeight="40.0" fitWidth="60.0" layoutX="172.0" layoutY="243.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@Lawnmower%20(1).png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="40.0" fitWidth="60.0" layoutX="167.0" layoutY="74.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@Lawnmower%20(1).png" />
-         </image>
-      </ImageView>
+        <ProgressBar layoutX="12.0" layoutY="171.0" prefHeight="12.0" prefWidth="60.0" progress="0.0" />
+        <Label layoutX="155.0" layoutY="30.0" />
+        <Button layoutX="84.0" layoutY="6.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="118.0" />
+        <ImageView fitHeight="40.0" fitWidth="87.0" layoutX="87.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@sun_token.png" />
+            </image>
+        </ImageView>
+        <TextField alignment="BOTTOM_CENTER" layoutX="131.0" layoutY="13.0" prefHeight="25.0" prefWidth="60.0" text="0" />
+        <ProgressBar layoutX="361.0" layoutY="17.0" nodeOrientation="RIGHT_TO_LEFT" opacity="0.85" prefWidth="200.0" progress="0.46" />
 
 
     </children>

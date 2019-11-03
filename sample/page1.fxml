@@ -12,11 +12,11 @@
             <Image url="@titleScreen.png" />
          </image>
       </ImageView>
-      <Button layoutX="471.0" layoutY="302.0" mnemonicParsing="false" text="Choose Level    ">
+      <Button layoutX="470.0" layoutY="258.0" mnemonicParsing="false" text="Choose Level    ">
          <font>
             <Font size="13.0" />
          </font></Button>
-      <Button layoutX="471.0" layoutY="253.0" mnemonicParsing="false" text="Exit Game         ">
+      <Button layoutX="470.0" layoutY="311.0" mnemonicParsing="false" text="Exit Game         ">
          <font>
             <Font size="13.0" />
          </font>
